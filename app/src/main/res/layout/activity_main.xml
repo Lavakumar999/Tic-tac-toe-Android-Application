@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lavakumar.tic_tac_toe.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC_TAC_TOE"
+        android:id="@+id/textView3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#14013b"
+        android:layout_gravity="center_horizontal"/>
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="106dp"
+        android:id="@+id/imgtop"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/starone"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PlayerOne: O       "
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:textColor="#66099f"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   PlayerTwo:X"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:textColor="#66099f"
+            android:layout_weight="1"
+            android:id="@+id/textView5" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp">
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button1" />
+
+        <Button
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button2" />
+        <Button
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp">
+        <Button
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button4" />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button5" />
+
+        <Button
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="80dp">
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button7" />
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button8" />
+
+        <Button
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/button9" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="184dp"
+            android:layout_height="106dp"
+            android:src="@drawable/startwo"
+            android:id="@+id/imgStarTwo1"/>
+        <ImageView
+            android:layout_width="184dp"
+            android:layout_height="106dp"
+            android:src="@drawable/startwo"
+            android:id="@+id/imgStarTwo2"/>
+    </LinearLayout>
+
+</LinearLayout>
